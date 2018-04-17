@@ -1,0 +1,99 @@
+.h{
+  display: none;
+}
+page{
+  width: 100%;
+  height: 100%;
+}
+/* 轮播1 */
+.swiper-box {
+	height: 100%;
+	width: 100%;
+}
+.swiper-box navigator{
+  height: 100%;
+	width: 100%;
+}
+.swiper-box image{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+/* 轮播2 */
+.swiper-box2{
+	height: 1040rpx;
+  margin: 0 14px 40px 14px;
+}
+.swiper-box2 navigator{
+  height: 100%;
+	width: 100%;
+}
+.swiper-box2 image{
+	height: 100%;
+	width: 100%;
+}
+.swiper-box2 .wx-swiper-dots.wx-swiper-dots-horizontal{
+  margin-bottom: -8rpx;
+}
+.swiper-box2 .wx-swiper-dot{
+  width:40rpx;
+  display: inline-flex;
+  height: 10rpx;
+  margin-left: 2rpx;
+  justify-content:space-between;
+}
+.swiper-box2 .wx-swiper-dot::before{
+    content: '';
+    flex-grow: 1; 
+    background: #ccc;
+    border-radius: 5rpx
+}
+.swiper-box2 .wx-swiper-dot-active::before{
+    background:#666;
+}
+
+
+
+
+
+/* 轮播3 */
+.swiper-box3{
+	height: 400rpx;
+  margin: 0 0 40px 16px;
+}
+.swiper-box3 image{
+	height: 100%;
+	width: 100%;
+}
+
+.swiper-box3 navigator{
+  height: 100%;
+	width: 100%;
+  padding-right: 16px;
+}
+/*更多*/
+.swiper-box3 .more{
+  background: #f2f2f2;
+}
+
+
+
+
+
+/* 轮播4 */
+.swiper-box4 {
+	height: 700rpx;
+	width: 100%;
+  margin-bottom: 40px;
+}
+.swiper-box4 navigator{
+  height: 100%;
+	width: 100%;
+}
+.swiper-box4 image{
+	height: 100%;
+	width: 100%;
+}

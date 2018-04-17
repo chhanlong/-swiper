@@ -1,0 +1,110 @@
+<!--轮播-->  
+<swiper class="swiper swiper-box" duration="1000">    
+  <block wx:for-index="index" wx:key="*this">    
+    <swiper-item>
+      <navigator>
+        <image src="images/banner.jpg" class="slide-image"  mode="scaleToFill"/>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <navigator>
+        <image src="images/banner.jpg" class="slide-image"  mode="scaleToFill"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item>
+      <navigator>
+        <image src="images/banner.jpg" class="slide-image"  mode="scaleToFill"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item>
+      <navigator>
+        <image src="images/banner.jpg" class="slide-image"  mode="scaleToFill"/>
+      </navigator>
+    </swiper-item>     
+  </block>  
+</swiper>
+
+<!--轮播2-->  
+<swiper class="swiper swiper-box2 h" indicator-dots="true" autoplay="true" interval="3000" duration="1000">    
+  <block wx:for-index="index" wx:key="*this">    
+    <swiper-item>
+      <navigator>
+        <image src="images/1.jpg" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <navigator>
+        <image src="images/2.jpg" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item>
+      <navigator>
+        <image src="images/1.jpg" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item>
+      <navigator>
+        <image src="images/2.jpg" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item>     
+  </block>  
+</swiper>
+
+<!--轮播3-->  
+<swiper class="swiper swiper-box3 h" display-multiple-items="2.4" interval="3000" duration="1000">    
+  <block wx:for-index="index" wx:key="*this">    
+    
+    <swiper-item class="swiper-item">
+      <navigator>
+        <image src="images/3.jpg" class="slide-image"  mode="widthFix"/>
+      </navigator>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+      <navigator>
+        <image src="images/3.jpg" class="slide-image"  mode="widthFix"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item class="swiper-item">
+      <navigator>
+        <image src="images/3.jpg" class="slide-image"  mode="widthFix"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item class="swiper-item">
+      <navigator>
+        <image src="images/3.jpg" class="slide-image"  mode="widthFix"/>
+      </navigator>
+    </swiper-item> 
+
+    <swiper-item class="swiper-item">
+      <navigator class="more"></navigator>
+    </swiper-item>      
+
+  </block>  
+</swiper>
+
+
+<!--轮播4-->  
+<swiper class="swiper swiper-box4 h" previous-margin="40px" next-margin="40px" circular="true" interval="3000" duration="1000">    
+  <block wx:for-index="index" wx:key="*this">    
+    <swiper-item>
+      <navigator>
+        <image src="images/4.png" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <navigator>
+        <image src="images/4.png" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item>
+      <navigator>
+        <image src="images/4.png" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item> 
+    <swiper-item>
+      <navigator>
+        <image src="images/4.png" class="slide-image"  mode="aspectFit"/>
+      </navigator>
+    </swiper-item>     
+  </block>  
+</swiper>
